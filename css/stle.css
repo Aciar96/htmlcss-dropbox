@@ -3,12 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    padding-top: 50px;
+    font-size: larger;
+}
+.container-main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+   
+    padding-bottom: 50px;
+
+}
 /* header */
 header{
     height: 50px;
     width: 100%;
     position: fixed;
-    
+    top: 0;
+    left: 0;
+    background-color: #fff;
     
 }
 .row ,.col {
@@ -17,22 +32,43 @@ header{
    
     
 }
+
 li{
     list-style-type: none;
-    padding: 10px;
-    
-  
+    padding: 10px;  
     
 }
 a{
     text-decoration:  none;
     color: gray;
-   
+    display: inline;
+    
+  
+    
 }
-
 .button{
     height: 30px;
     width: 70px;
     background-color: blue;
-   
+}
+/* main */
+main{
+    background-color: #B4D0E7;
+    padding-top: 50px;
+    height: 670px;
+}
+.row-main{
+    display: flex;
+   justify-content: space-between;
+    
+}
+.p-int{
+    margin-bottom: 100px;
+}
+.advice{
+    margin-top: 100px;
+}
+.jumbo{
+    width:900px;
+    height:600px ;
 }
