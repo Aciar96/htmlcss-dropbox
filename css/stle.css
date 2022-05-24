@@ -22,9 +22,17 @@ h3{
 }
 h4{
     padding-bottom: 30px;
+    
 }
 p{
     padding-bottom: 30px;
+}
+h2{
+    padding-top: 100px;
+    padding-left: 100px;
+    display: inline;
+    margin-right: 150px;
+    width: 50px;
 }
 
 .container{
@@ -52,7 +60,7 @@ header .list{
 .row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 
 }
 
@@ -116,11 +124,80 @@ main{
     width: 500px;
 }
 .col{
-    margin: 20px;
-    width: 25%;
-    
+    margin: 20px;   
 }
 .task{
     width: 80%;
     height: 140px;
+}
+/* card */
+.row-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-card{
+    width: 30%;
+}
+.card{
+    width: 100%;
+}
+/* partnership */
+
+.block-green{
+    height: 200px;
+    width: 200px;
+    background-color: green;  
+}
+.block-brown{
+    height: 200px;
+    width: 200px;
+    background-color: brown;  
+}
+.block-blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;  
+}
+.block-red{
+    height: 200px;
+    width: 200px;
+    background-color: red;  
+}
+
+
+.block-grey{
+    height: 200px;
+    width: 200px;
+    background-color: gray;  
+}
+  
+
+.block-yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;  
+}
+
+
+
+.col-block{
+    display: flex;
+   
+    flex-wrap: wrap;
+    width: 36%;
+}
+.col-block-cent{
+   width: 53%;
+}
+.des{
+   height: 50px;
+}
+
+.prov{
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
+    padding:50px;
+    
 }
