@@ -12,9 +12,28 @@ body{
     margin: 0 auto;
 }
 h1{
-   
     padding-bottom: 50px;
+    font-size: 78px;
+    font-weight: 800;
+}
+h3{
+    padding-bottom: 30px;
+    padding-top: 145px;
+}
+h4{
+    padding-bottom: 30px;
+}
+p{
+    padding-bottom: 30px;
+}
 
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.p-cent{
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 /* header */
 header{
@@ -26,25 +45,25 @@ header{
     background-color: #fff;
     
 }
-.row ,.col {
+
+header .list{
+    display: flex;
+}
+.row {
     display: flex;
     justify-content: space-between;
-   
-    
+    flex-wrap: wrap;
+
 }
 
 li{
     list-style-type: none;
     padding: 10px;  
-    
 }
 a{
     text-decoration:  none;
     color: gray;
-    display: inline;
-    
-  
-    
+    display: inline-block;
 }
 .button{
     height: 30px;
@@ -55,13 +74,9 @@ a{
 main{
     background-color: #B4D0E7;
     padding-top: 50px;
-    height: 670px;
+    height: 800px;
 }
-.row-main{
-    display: flex;
-   justify-content: space-between;
-    
-}
+
 .p-int{
     margin-bottom: 100px;
 }
@@ -71,4 +86,41 @@ main{
 .jumbo{
     width:900px;
     height:600px ;
+}
+/* form */
+.col-tab{
+    height:700px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 20px;
+    
+}
+.border {
+    width: 70px;
+    height: 1px;
+    background-color: black;
+}
+.row-tab{
+    display: flex;
+
+}
+.big-tab{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;  
+}
+ /* partner */
+.patt{
+    height: 500px;
+    width: 500px;
+}
+.col{
+    margin: 20px;
+    width: 25%;
+    
+}
+.task{
+    width: 80%;
+    height: 140px;
 }
