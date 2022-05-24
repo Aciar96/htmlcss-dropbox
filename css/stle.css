@@ -6,6 +6,7 @@
 body{
     padding-top: 50px;
     font-size: larger;
+    font-family: 'Open Sans', sans-serif;
 }
 .container-main{
     max-width: 1200px;
@@ -17,15 +18,15 @@ h1{
     font-weight: 800;
 }
 h3{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-top: 145px;
 }
 h4{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     
 }
 p{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 h2{
     padding-top: 100px;
@@ -33,6 +34,15 @@ h2{
     display: inline;
     margin-right: 150px;
     width: 50px;
+}
+ 
+
+.special{
+display: block;
+padding-top: 0;
+padding-left: 0;
+margin-right: 0;
+width: 100%;
 }
 
 .container{
@@ -60,6 +70,7 @@ header .list{
 .row {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
     
 
 }
@@ -82,7 +93,7 @@ a{
 main{
     background-color: #B4D0E7;
     padding-top: 50px;
-    height: 800px;
+    height: 855px;
 }
 
 .p-int{
@@ -117,6 +128,12 @@ main{
     width: 100%;
     border: 1px solid black;
     margin-top: 20px;  
+    position: relative;
+}
+.but-tab{
+    position: absolute;
+    right: 10px;
+    top: 45px;
 }
  /* partner */
 .patt{
@@ -143,6 +160,11 @@ main{
     width: 100%;
 }
 /* partnership */
+.row-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
 
 .block-green{
     height: 200px;
@@ -194,10 +216,31 @@ main{
    height: 50px;
 }
 
+.row-prov{
+    display: flex;
+    
+    margin-bottom: 0;
+}
 .prov{
     background-color: aquamarine;
     height: 200px;
     width: 100%;
     padding:50px;
+    
+}
+.big-border{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.bg-color{
+    background-color: black;
+    height: 600px;
+    color: white;
     
 }
