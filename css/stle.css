@@ -12,6 +12,10 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+.p-50{
+    padding-bottom: 50px;
+}
+
 h1{
     padding-bottom: 50px;
     font-size: 78px;
@@ -22,7 +26,7 @@ h3{
     padding-top: 145px;
 }
 h4{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     
 }
 p{
@@ -39,7 +43,7 @@ h2{
 
 .special{
 display: block;
-padding-top: 0;
+padding-top: 50px;
 padding-left: 0;
 margin-right: 0;
 width: 100%;
@@ -77,17 +81,27 @@ header .list{
 
 li{
     list-style-type: none;
-    padding: 10px;  
+    padding-top: 10px;  
+    padding-right: 10px;
 }
 a{
     text-decoration:  none;
     color: gray;
     display: inline-block;
 }
-.button{
+.button ,.but{
     height: 30px;
-    width: 70px;
+    width: 50px;
     background-color: blue;
+    color:white;
+    
+}
+.big-but,.but-main{
+    background-color: blue;
+    color:white;
+    height:30px ;
+    width:235px;
+   
 }
 /* main */
 main{
@@ -118,6 +132,8 @@ main{
     width: 70px;
     height: 1px;
     background-color: black;
+    margin-top:25px ;
+    margin-bottom: 25px;
 }
 .row-tab{
     display: flex;
@@ -130,10 +146,16 @@ main{
     margin-top: 20px;  
     position: relative;
 }
-.but-tab{
+.but-tab ,.big-but-tab{
     position: absolute;
     right: 10px;
     top: 45px;
+}
+.big-but-tab{
+    background-color: blue;
+    color:white;
+    height:30px ;
+    width:235px;
 }
  /* partner */
 .patt{
@@ -164,53 +186,62 @@ main{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
+    transform: calc(100vw / 3);
+    
 }
 
 .block-green{
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     background-color: green;  
 }
 .block-brown{
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     background-color: brown;  
 }
 .block-blue{
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     background-color: blue;  
 }
 .block-red{
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     background-color: red;  
 }
 
 
 .block-grey{
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     background-color: gray;  
 }
   
 
 .block-yellow{
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     background-color: yellow;  
 }
 
+.sponsor{
+    height: 50%;
+    width: 50%;
+}
 
-
-.col-block{
+.col-block {
     display: flex;
-   
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    width: 36%;
+    width: 50%;
+    
 }
 .col-block-cent{
-   width: 53%;
+   width: 50%;
+   padding-left: 10px;
+  
 }
 .des{
    height: 50px;
@@ -225,7 +256,8 @@ main{
     background-color: aquamarine;
     height: 200px;
     width: 100%;
-    padding:50px;
+    padding-top: 80px;
+    padding-left: 300px;
     
 }
 .big-border{
@@ -243,4 +275,7 @@ main{
     height: 600px;
     color: white;
     
+}
+.tend:hover{
+    margin-bottom: 20px;
 }

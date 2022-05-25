@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' crossorigin='anonymous'/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
                  <li><a href="">Contatta l'ufficio vendite</a> </li>
                  <li ><a href="">accedi</a> </li>
                 <li><div class="button">
-                    <a href="">inizia</a>
+                    <a class="but" href="">inizia</a>
                 </div></li>
             </ul>  
          </nav>        
@@ -39,7 +39,7 @@
             <section class="row">
                 <div class="col-main">
                     <p class="p-int">Finalmente tutti i tuoi strumenti,contenuti e collaboratori sono accessibili dallo stesso posto.Dropbox Buisness è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro </p>
-                    <a class="but-main" href=""> inizia la tua prova gratuita  </a>
+                    <div class="big-but"><a class="but-main" href=""> inizia la tua prova gratuita </a></div>
                     <p class="advice">anulla in qualsiasi momento</p>                 
                 </div>        
                 <div class="col">
@@ -50,13 +50,13 @@
       <div class="container">
             <div class="row-tab">
                     <div class="col-tab">
-                    <p class="p-cent">singolo</p>
+                    <p class="p-cent"> singolo</p>
                     <h4>Professional</h4>
                     <p>12.00</p>
                     <p>/mese</p>
                     <p>utente</p>
-                    <p>5 TB di archiviazione sicura</p>
-                    <a href="">prova gratis per 30 giorni</a>
+                    <p> <span class="fa-li"><i class="fa-solid fa-check-square"></i></span>5 TB di archiviazione sicura</p>
+                    <div class="big-but"><a class="but_main" href="">prova gratis per 30 giorni</a></div>
                     <p >oppure <a href="">aquista ora</a></p>
                     <div class="border"></div>
                     <h6>punti salienti del piano</h6>
@@ -72,7 +72,7 @@
                         <p>/mese</p>
                         <p>utente</p>
                         <p>5 TB di archiviazione sicura</p>
-                        <a href="">prova gratis per 30 giorni</a>
+                        <div class="big-but"><a class="but-main" href="">prova gratis per 30 giorni</a></div>
                         <p >oppure <a href="">aquista ora</a></p>
                         <div class="border"></div>
                         <h6>punti salienti del piano</h6>
@@ -90,8 +90,8 @@
                             <p>12.00</p>
                             <p>/mese</p>
                             <p>utente</p>
-                            <p>5 TB di archiviazione sicura</p>
-                            <a href="">prova gratis per 30 giorni</a>
+                            <p><i class="fa-solid fa-user"></i>5 TB di archiviazione sicura</p>
+                            <div class="big-but"><a class="but-main" href="">prova gratis per 30 giorni</a></div>
                             <p >oppure <a href="">aquista ora</a></p>
                             <div class="border"></div>
                             <h6>punti salienti del piano</h6>
@@ -109,7 +109,9 @@
                     <p class="p-cent">team</p>
                     <h4>enterprise</h4>
                     <h5>contatta l'ufficio vendite per i prezzi</h5>
-                    <a  class="but-tab" href="">contatta l'ufficio vendite </a>
+                    <div class="big-but-tab">
+                        <a  class="but-tab" href="">contatta l'ufficio vendite </a>
+                    </div>
                     <p>Soluzione personalizzate e supporto su misura per aiutare i professionisti IT nelle gestione su qualsiasi scala</p>
                 </div>
             </div>            
@@ -165,38 +167,57 @@
             <a href="">scopri di più sui nostri clienti </a>          
             </div> 
         </div>
-        <div class="row-block">
-            <div class="col-block">
-                <div class="block-green"></div>
-                <div class="block-brown"></div>
-                <div class="block-blue"></div>
-                <div class="block-red"></div>
-            </div>
-            <div class=" col-block-cent">
-                <img class="des" src="img/designit.svg" alt="">
-                <div class="border"></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem corrupti dolores, laudantium aut cumque architecto aperiam dolorem quaerat adipisci soluta, sunt exercitationem, magni iure laborum expedita iste nostrum tempore. Quia!</p>
-                <p>lorem ipsum</p>
-            </div>
-            <div class="col-block">
-                <div class="block-red"></div>
-                <div class="block-grey"></div>
-                <div class="block-blue"></div>
-                <div class="block-yellow"></div>
-            </div>
-        </div>
+       
+         <div class="row-block">       
+                <div class="col-block">
+                    <div class="block-green col-block">
+                      <img class="sponsor" src="img/designit.svg" alt="">
+                    </div>
+                    <div class="block-brown col-block">
+                        <img class="sponsor" src="img/arizona_state_university.svg" alt="">
+                    </div>
+                    <div class="block-blue col-block">
+                        <img class="sponsor" src="img/university_of_florida.svg" alt="">
+                    </div>
+                    <div class="block-red">
+                        <img class="sponsor" src="img/topps.svg" alt="">
+                    </div>
+                </div>
+                <div class=" col-block-cent">
+                    <img class="des" src="img/designit.svg" alt="">
+                    <div class="border"></div>
+                    <p class="p-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem corrupti dolores, laudantium aut cumque architecto aperiam dolorem quaerat adipisci soluta, sunt exercitationem, magni iure laborum expedita iste nostrum tempore. Quia!</p>
+                    <p>lorem ipsum</p>
+                </div> 
+                <div class="col-block">
+                    <div class="block-red col-block">
+                        <img class="sponsor" src="img/world_bicycle_relief.svg" alt="">
+                    </div>
+                    <div class="block-grey col-block">
+                        <img class="sponsor" src="img/hearst_corp.svg" alt="">
+                    </div>
+                    <div class="block-blue col-block">
+                        <img class="sponsor" src="img/lonely_planet.svg" alt="">
+                    </div>
+                    <div class="block-yellow col-block">
+                        <img class="sponsor" src="img/clear_channel.svg" alt="">
+                    </div>
+          </div>
+          </div>
         <div class="prov">
+            <div class="container-prov">
                 <h2>porta dropbox sitem nella tua azienda</h2>
                 <a href="">inizia la tua prova gratuita </a>
+            </div>   
         </div>
         <div class="container">
             <h2 class="special">domande frequenti</h2>
             <div class="big-border"></div>
-            <a href="">qual'è la differenza tra Dropbox business standard e Dropbox Buisness advanced?</a>
+            <a class="tend" href="">qual'è la differenza tra Dropbox business standard e Dropbox Buisness advanced?</a>
+            <div  class="big-border"></div>
+            <a class="tend" href="">qual'è la differenza tra Dropbox business standard e Dropbox Buisness advanced?</a>          
             <div class="big-border"></div>
-            <a href="">qual'è la differenza tra Dropbox business standard e Dropbox Buisness advanced?</a>          
-            <div class="big-border"></div>
-            <a href="">qual'è la differenza tra Dropbox business standard e Dropbox Buisness advanced?</a>
+            <a class="tend" href="">qual'è la differenza tra Dropbox business standard e Dropbox Buisness advanced?</a>
             <div class="big-border"></div>
         </div>
         <div class="bg-color">
@@ -205,41 +226,52 @@
                     <div class="col">
                         <h5>Dropbox</h5>
                         <ul>
-                            <li>lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li>lorem</li>
+                            <li>Aplicazioni Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ul>
+                    </div>
+               
+                    <div class="col">
+                        <h5>prodotti</h5>
+                        <ul>
+                            <li>Aplicazioni Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
                         </ul>
                     </div>
                     <div class="col">
-                        <h5>Dropbox</h5>
+                        <h5>azienda</h5>
                         <ul>
-                            <li>lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li>lorem</li>
+                            <li>Aplicazioni Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
                         </ul>
                     </div>
                     <div class="col">
-                        <h5>Dropbox</h5>
+                        <h5>Supporto</h5>
                         <ul>
-                            <li>lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li>lorem</li>
+                            <li>Aplicazioni Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
                         </ul>
                     </div>
                     <div class="col">
-                        <h5>Dropbox</h5>
+                        <h5>community</h5>
                         <ul>
-                            <li>lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li> lorem</li>
-                            <li>lorem</li>
+                            <li>Aplicazioni Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
                         </ul>
                     </div>
                 </div>
