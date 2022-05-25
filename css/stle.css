@@ -33,8 +33,7 @@ p{
     padding-bottom: 10px;
 }
 h2{
-    padding-top: 100px;
-    padding-left: 100px;
+   
     display: inline;
     margin-right: 150px;
     width: 50px;
@@ -274,6 +273,10 @@ main{
     color: white;
     
 }
+.tend{
+    padding-right:150px ;
+}
 .tend:hover{
     margin-bottom: 20px;
+    
 }
