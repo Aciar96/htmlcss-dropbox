@@ -122,10 +122,11 @@ main{
 }
 /* form */
 .col-tab{
-    height:700px;
+    height:860px;
     width: 300px;
     border: 1px solid black;
     margin: 20px;
+    padding:10px;
     
 }
 .border {
@@ -149,14 +150,11 @@ main{
 .but-tab ,.big-but-tab{
     position: absolute;
     right: 10px;
-    top: 45px;
+    top: 65px;
 }
-.big-but-tab{
-    background-color: blue;
-    color:white;
-    height:30px ;
-    width:235px;
-}
+
+    
+
  /* partner */
 .patt{
     height: 500px;
